@@ -164,6 +164,7 @@
     font-size: large;
     color: #eeea08;
     text-decoration: none;
+    caret-color: transparent;
   }
 
   .logo {

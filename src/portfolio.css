@@ -9,9 +9,17 @@
     background-position: center;
     background-size: cover;
     height: 100vh;
+    background-repeat: repeat-y;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 .profile{
+    display: flex;
+    align-items: center;
+}
+
+.education{
     display: flex;
     align-items: center;
 }

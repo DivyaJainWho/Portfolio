@@ -1,0 +1,39 @@
+.experience{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    padding-top: 10vh;
+    gap: 10vh;
+}
+
+.ex1{
+    box-shadow: 0 4px 8px 0 rgba(241, 245, 6, 0.986);
+    padding: 2vh;
+}
+
+.ex2{
+    box-shadow: 0 4px 8px 0 rgba(248, 252, 5, 0.938);
+    padding: 2vh;
+}
+.title{
+    font-family: "Comic Sans MS", "Comic Sans", "cursive";
+    border-radius: 5px;
+    font-size: x-large;
+    padding: 10px;
+    align-items: center;
+    color: rgb(199, 238, 211);
+    caret-color: transparent;
+}
+
+.des{
+    font-family: "Comic Sans MS", "Comic Sans", "cursive";
+    color: rgb(238, 195, 223);
+    caret-color: transparent;
+}
+
+.jobdes{
+    font-family: "Comic Sans MS", "Comic Sans", "cursive";
+    color: rgb(245, 161, 105);
+    caret-color: transparent;
+}

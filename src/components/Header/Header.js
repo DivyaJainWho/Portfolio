@@ -40,7 +40,7 @@ function Header(props) {
               activestyle={{ fontWeight: "bold" }}
               style={{ borderRadius: 5, caretColor: 'transparent'}}
             >
-              Education and Certifications
+              Education
             </NavLink>
           </li>
           <li>
@@ -111,7 +111,7 @@ function Header(props) {
             tag={Link}
             className="ham-items"
           >
-            Education and Certifications
+            Education
           </NavLink>
         </li>
         <li>

@@ -65,4 +65,15 @@
         font-size: large;
         padding: 5px;
     }
+    .profile{
+        display: flex;
+        flex-direction: column;
+    }
+    .profilepic{
+        width: 40%;
+    }
+    .text{
+        padding-left: 4%;
+        padding-top: 4%;
+    }
   }

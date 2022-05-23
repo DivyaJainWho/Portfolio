@@ -1,0 +1,76 @@
+.education{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 5%;
+}
+
+.edcolumn{
+    display: block; 
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.student{
+    size: 10%;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(248, 252, 5, 0.938);
+    padding: 16px;
+    text-align: center;
+    background-color: #f5ee8a;
+    color: yellow;
+}
+
+.grade{
+    font-family: "Comic Sans MS", "Comic Sans", "cursive";
+    font-size: larger;
+    padding: 10px;
+    align-items: center;
+    color: rgb(64, 64, 65);
+    caret-color: transparent;
+}
+
+.school{
+    font-family: "Comic Sans MS", "Comic Sans", "cursive";
+    color: rgb(64, 64, 65);
+    caret-color: transparent;
+}
+
+.year{
+    font-family: "Comic Sans MS", "Comic Sans", "cursive";
+    color: rgb(41, 41, 48);
+    caret-color: transparent;
+}
+
+.marks{
+    font-family: "Comic Sans MS", "Comic Sans", "cursive";
+    color: rgb(41, 41, 48);
+    caret-color: transparent;
+}
+
+@media only screen and (max-width: 768px){
+    .education{
+        flex-direction: column;
+    }
+    .edcolumn{
+        display: block; 
+        padding: 15px;
+    }
+    .title{
+        font-size: small;
+    }
+    .school{
+        font-size: x-small;
+    }
+    .year{
+        font-size: x-small;
+    }
+    .marks{
+        font-size: x-small;
+    }
+    .card{
+        padding-top: 10px;
+    }
+  }

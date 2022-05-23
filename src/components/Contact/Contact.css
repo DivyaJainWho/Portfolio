@@ -1,0 +1,50 @@
+.resume{
+    display: flex;
+    align-items: center;
+    padding-top: 10vh;
+    flex-direction: column;
+}
+
+.textres{
+    font-family: "Comic Sans MS", "Comic Sans", "cursive";
+    color: rgb(240, 240, 248);
+    caret-color: transparent;
+    font-size: larger;
+}
+
+.down{
+    text-decoration: none;
+    background-color: yellow;
+    caret-color: transparent;
+    color: black;
+    border-radius: 5%;
+    border:2px;
+    border-color: white;
+    font-size: large;
+    font-family: "Comic Sans MS", "Comic Sans", "cursive";
+    padding: 1%;
+}
+
+.contactme{
+    display: flex;
+    padding-top: 2%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.icons{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+@media only screen and (max-width: 768px){
+    .down{
+        padding: 2%;
+    }
+    .contactme{
+        padding-top: 10%;
+    }
+    .textres{
+        font-size: large;
+    }
+}
