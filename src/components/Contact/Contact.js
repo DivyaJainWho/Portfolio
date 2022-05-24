@@ -8,9 +8,10 @@ import './Contact.css'
 const Contact = () =>{
     return (
         <div className='resume'>
-            <p className='textres'>Click below to Download Resume for further reference.</p>
+            <p className='textres'>Click below to Download Resume for reference.</p>
             <FontAwesomeIcon icon={faDownload} style={{fontSize:'48px', color:'white', padding:'3%'}}/>
             <a href={myResume} download="Resume.pdf" className='down'>Download Resume</a>
+            <p className='connect'>Connect for further details</p>
             <div className='contactme'>
                 <a href='https://twitter.com/Divyajainwho?t=1nX0PUHNokHRFAQQlo-GjQ&s=08' className='icons'><FontAwesomeIcon icon={faTwitter} style={{fontSize:'24px', color:'white', paddingLeft:'3%'}}></FontAwesomeIcon></a>
                 <a href='https://github.com/DivyaJainWho' className='icons'><FontAwesomeIcon icon={faGithub} style={{fontSize:'24px', color:'white', paddingLeft:'3%'}}></FontAwesomeIcon></a>

@@ -12,6 +12,14 @@
     font-size: larger;
 }
 
+.connect{
+    font-family: "Comic Sans MS", "Comic Sans", "cursive";
+    color: rgb(240, 240, 248);
+    caret-color: transparent;
+    font-size: larger;
+    padding-top: 2%;
+}
+
 .down{
     text-decoration: none;
     background-color: yellow;
@@ -45,6 +53,9 @@
         padding-top: 10%;
     }
     .textres{
+        font-size: large;
+    }
+    .connect{
         font-size: large;
     }
 }
