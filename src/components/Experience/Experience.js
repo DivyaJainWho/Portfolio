@@ -4,7 +4,7 @@ import './Experience.css'
 const Experience =()=>{
 return (
     <div className="experience">
-        <div className="ex1">
+        <div className="ex2">
             <h1 className="title">CGI</h1>
             <p className="des">Software Engineer   (September 08, 2020 - Present)</p>
             <p className="jobdes">Working as a full stack developer on Ratabase application which is used by Raters in order to calculate Insurance premiums.</p>

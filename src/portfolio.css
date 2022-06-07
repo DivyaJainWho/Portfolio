@@ -5,13 +5,25 @@
 
 .home{
     width: 100%;
-    background: url(./images/back10.jpg);
+    background-color: rgb(101, 111, 119);
     background-position: center;
     background-size: cover;
     height: 100vh;
     background-repeat: repeat-y;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
+    background:
+        -moz-radial-gradient(rgb(236, 217, 45) 1%, transparent 5%),
+        -moz-radial-gradient(rgb(236, 217, 45)  1%, transparent 5%),
+        rgb(21, 23, 24);
+    background:
+    -webkit-radial-gradient(rgb(236, 217, 45)  1%, transparent 5%),
+    -webkit-radial-gradient(rgb(236, 217, 45)  1%, transparent 5%),
+    rgb(27, 29, 31);
+background-position: 0 0, 80px 80px;
+
+-webkit-background-size:160px 160px;
+-moz-background-size:160px 160px;
 }
 
 .profile{

@@ -7,11 +7,6 @@
     gap: 10vh;
 }
 
-.ex1{
-    box-shadow: 0 4px 8px 0 rgba(241, 245, 6, 0.986);
-    padding: 2vh;
-}
-
 .ex2{
     box-shadow: 0 4px 8px 0 rgba(248, 252, 5, 0.938);
     padding: 2vh;

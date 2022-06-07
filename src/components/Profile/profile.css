@@ -11,7 +11,11 @@
     border-radius: 50%;
     border: 2px;
     border-color: black;
+    box-shadow: 0 2px 20px #cacab8;
+    background-color: #cfc8c8;
+    color: #ffffff !important;
 }
+
 
 .text{
     padding-left:20%;
