@@ -10,6 +10,7 @@
 .ex2{
     box-shadow: 0 4px 8px 0 rgba(248, 252, 5, 0.938);
     padding: 2vh;
+    background-color: rgb(49, 46, 46);
 }
 .title{
     font-family: "Comic Sans MS", "Comic Sans", "cursive";

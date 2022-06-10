@@ -49,6 +49,10 @@
     padding: 2vh;
     background-color: rgb(173, 119, 119);
 }
+
+.ex3:hover{
+    box-shadow: 0 4px 4px 4px rgba(246, 250, 248, 0.986);
+}
 .title{
     font-family: "Comic Sans MS", "Comic Sans", "cursive";
     border-radius: 5px;
