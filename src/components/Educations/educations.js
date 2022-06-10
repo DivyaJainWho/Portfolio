@@ -11,7 +11,7 @@ const Education =() =>{
                     <h3 className="grade">BE (EEE)  🎓</h3>
                     <p className="school">Birla Institute Of Technology,Mesra</p>
                     <p className="year">(2016-2020)</p>
-                    <p className="marks">8.43</p>
+                    <p className="marks">8.42</p>
                 </div>
             </div>
             <div className="edcolumn">
